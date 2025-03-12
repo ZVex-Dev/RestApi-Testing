@@ -1,12 +1,7 @@
 <h1 align="center">
   <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="50">
   ZVex-Dev REST API
-  <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="50">
-</h1>
-
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200"/>
-</p>
+  
 
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+ZVex-Dev+REST+API+" alt=""></a>
