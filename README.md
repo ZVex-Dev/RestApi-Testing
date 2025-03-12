@@ -1,174 +1,164 @@
+<h1 align="center">
+  <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="50">
+  ZVex-Dev REST API
+  <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="50">
+</h1>
 
 <p align="center">
-<img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200"/>
+  <img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200"/>
 </p>
+
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+Rest+Api+AlpisV2+" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Welcome+To+ZVex-Dev+REST+API+" alt=""></a>
 </p>
+
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-AlipBot-red.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-ZVexDev-red.svg?style=for-the-badge&logo=github"></a>
 </p>
+
 <p align="center">
-<a href="https://github.com/AlipBot?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
-<a href="https://github.com/AlipBot/Api-Alpis/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/AlipBot/Api-Alpis?color=white&style=flat-square"></a>
-<a href="https://github.com/AlipBot/Api-Alpis/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AlipBot/Api-Alpis?color=yellow&style=flat-square"></a>
-<a href="https://github.com/AlipBot/Api-Alpis/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/AlipBot/Api-Alpis?label=Watchers&color=red&style=flat-square"></a>
-<a href="https://github.com/AlipBot/Api-Alpis"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
-<a href="https://github.com/AlipBot/Api-Alpis/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAlipBot%2FApi-Alpis%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/AlipBot/Api-Alpis/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+  <img src="https://media.giphy.com/media/xT1XGLzUShu13Y5Z6E/giphy.gif">
 </p>
 
+---
 
-* # TUTORIAL 📌
+## ðŸš€ Fitur Utama
 
+âœ” **Login & Register**  
+âœ” **Autentikasi JWT**  
+âœ” **Verification Email**  
+âœ” **API Downloader**  
+âœ” **Photooxy & TextPro Maker**  
+âœ” **Rate Limiting & Anti-Spam**  
+âœ” **Mendukung JSON & Form-Data**  
+âœ” **Deploy Gratis di Render.com & Replit**  
 
-* ## STEP 1
-Forks Github Ini Klick Di Bawah
+---
 
-[![Fork](https://telegra.ph/file/0ac5b4f21a7c153f3bfc7.png)](https://github.com/AlipBot/api-alpis/fork)
+## ðŸ“¥ Instalasi & Menjalankan Secara Lokal
 
+```sh
+# Clone Repository
+git clone https://github.com/ZVex-Dev/RestApi.git
+cd RestApi
 
-* ## STEP 2
-Buat Account Mongodb Dan Buat Database Klick Di Bawah
-
-[![Deploy to Render](https://telegra.ph/file/1bc5c9749e8a46d167619.png)](https://www.mongodb.com/cloud/atlas/register)
-
-* ## STEP 3
-
-Buat Email SMTP
-
- [`Tutorial Cara buat Email SMTP FREE Click ME`](https://www.youtube.com/watch?v=1YXVdyVuFGA)<br>
-
-* ## STEP 4
-
- Buat Account Render Klick Di bawah
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://dashboard.render.com/) 
-
-Buat Web Service Baru
-  
-Connect Account Github
-  
-Connect repository Github Yang Kamu Fork Tadi
-  
-Build Command Paste
-```
+# Install Dependencies
 npm install
-```
 
-Start Command Paste
+# Buat File .env
+echo "PORT=3000
+DATABASE_URL=mongodb+srv://user:password@cluster.mongodb.net/dbname
+JWT_SECRET=supersecretkey" > .env
 
-```
+# Jalankan API
 npm start
-```
-  
-Klick Advanced Dan
-  
-Tambah Environment Variable
-  
-```
-mongodb = "Key Database mongodb Kamu"
-sendemail = 'Email SMTP'
-fromsendemail = 'EMAIL SMTP sama dengan atas'
-sendpwmail = "Password EMAIL SMTP"
 
-GET APIKEY RECAPTCHA From https://www.google.com/recaptcha/admin/create
-
-recaptcha_key_1 = 'Key recaptchaV1 Kamu'
-recaptcha_key_2 = 'Key recaptchaV2 Kamu'
+# Cek di Browser/Postman
+http://localhost:3000/
 ```
 
-  
-Lepastu 
-  
-Tekan Create web service
+<p align="center">
+  <img src="https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif" width="400">
+</p>
 
-lepas siap deploy add domain website kamu ke file setting dan buat key recaptcha kamu 
-copy paste kat Environment Variable di
+---
 
-```
-recaptcha_key_1 = 'Key recaptchaV1 Kamu'
-recaptcha_key_2 = 'Key recaptchaV2 Kamu'
-```
-  
-* ## Tutorial Youtube
+## â˜ï¸ Deploy ke Render.com
 
-<a href="https://youtu.be/5K3YYuq7QoI"><img src="https://img.youtube.com/vi/5K3YYuq7QoI/sddefault.jpg" alt="">
+1. **Buka [Render Dashboard](https://dashboard.render.com/)**  
+2. **Klik "New Web Service"**  
+3. **Hubungkan dengan Repository GitHub**  
+4. **Pilih Branch `main` atau `master`**  
+5. **Isi Environment Variables sesuai `.env`**  
+6. **Deploy & Nikmati API-mu!**  
 
- [`Tutorial In Youtube`](https://youtu.be/5K3YYuq7QoI)<br>
+---
 
-* ## SETTING ⚙️
-File Setting ``setting.js``
+## ðŸŽ¥ Tutorial Youtube
 
-[`Tukar Nama Creator Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=creator%20%3D%20%27-,%E4%B9%82%F0%9D%98%BC%F0%9D%99%A1%F0%9D%99%9E%F0%9D%99%A5%E4%B9%82,-%27%20//%20Nama)<br>
-[`Tukar Port Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=port%20%3D-,8080,-//port%20host)<br>
-[`Tukar Limit Apikey Disini`](https://github.com/AlipBot/Api-Alpis/blob/master/settings.js#:~:text=LimitApikey%20%3D-,200,-//%20Limit%20Apikey%20default)<br>
+[`Tutorial Cara Deploy`](https://youtu.be/5K3YYuq7QoI)
 
+<p align="center">
+  <a href="https://youtu.be/5K3YYuq7QoI">
+    <img src="https://img.youtube.com/vi/5K3YYuq7QoI/sddefault.jpg">
+  </a>
+</p>
 
-## Command Untuk Editing
+---
 
-```
-  npm start
-```
-  or
-  
-```
-  npm run node
-```
+## ðŸ’° Sawer Dulu, Biar Ngodingnya Semangat!
 
-* ## FEATURE LIST 💡
-  
-  
-| FEATURE MY SCRIPT |🌱|
-| ------------- | ------------- |
-| Login |✔️|
-| Sing Up  |✔️|
-| NO TEMP Email |✔️|
-| Anti Spam Email  |✔️|
-| Verification Email |✔️|
-| Change Password  |✔️|
-| DATABASE |✔️|
-| Limit Apikey And Auto Reset |✔️|
-| Anti Error |✔️|
+Jika API ini bermanfaat buat lu, bisa banget traktir kopi gua di **Saweria**! â˜•  
 
-  
+<p align="center">
+  <a href="https://saweria.co/zvexdev">
+    <img src="https://img.shields.io/badge/Saweria-Support%20Me-orange?style=for-the-badge&logo=coffee">
+  </a>
+</p>
 
-| FEATURE API |🌱|
-| ------------- | ------------- |
-| Dowloader |✔️|
-| Text Pro  |✔️|
-| Photooxy  |✔️|
-| Sound Of Text  |✔️|
-| Search  |✔️|
-| Random Gambar  |✔️|
-| Game  |✔️|
-| Maker |✔️|
-| Link Short  |✔️|
-| Information |✔️|
-| Tools  |✔️|
-| Islamic  |✔️|
+---
 
+## ðŸ“„ Dokumentasi API
 
-* ## Hasil Deploy🌍
+| Method | Endpoint       | Deskripsi               |
+|--------|--------------|-------------------------|
+| GET    | `/users`     | Ambil semua user        |
+| POST   | `/users`     | Tambah user baru        |
+| GET    | `/users/:id` | Ambil user berdasarkan ID |
+| PUT    | `/users/:id` | Update user berdasarkan ID |
+| DELETE | `/users/:id` | Hapus user berdasarkan ID |
 
-[`alpis.eu.org `](https://alpis.eu.org)<br>
-[`alpis.bot-skylarkskyl.repl.co
-`](https://alpis.bot-skylarkskyl.repl.co)<br>
+---
 
+## ðŸ› ï¸ Setting API
 
-* ## Support Deploy Free
-<a href="https://replit.com/@BOT-SKYLARKSKYL/Api-Alpis-in-replit?v=1"><img src="https://telegra.ph/file/8d225f38ce1920182e313.png" width="300" height="200">
-<a href="https://dashboard.render.com"><img src="https://telegra.ph/file/6125fb68b97cdd156fc67.png" width="400" height="200">
+- **Edit Nama Creator**: [`settings.js`](https://github.com/ZVex-Dev/RestApi/blob/master/settings.js#:~:text=creator%20%3D)
+- **Edit Port API**: [`settings.js`](https://github.com/ZVex-Dev/RestApi/blob/master/settings.js#:~:text=port%20%3D)
+- **Edit Limit API**: [`settings.js`](https://github.com/ZVex-Dev/RestApi/blob/master/settings.js#:~:text=LimitApikey%20%3D)
 
+---
 
+## âœ… Feature API
 
-## ``Credit 💳 Script``
+| Fitur | Status |
+|------|--------|
+| Login & Register | âœ”ï¸ |
+| No Temp Email | âœ”ï¸ |
+| Verification Email | âœ”ï¸ |
+| Limit API Key | âœ”ï¸ |
+| Anti-Spam | âœ”ï¸ |
+| Database MongoDB | âœ”ï¸ |
+| API Downloader | âœ”ï¸ |
+| Text Pro | âœ”ï¸ |
+| Photooxy | âœ”ï¸ |
+| Random Gambar | âœ”ï¸ |
 
-<img src="https://avatars.githubusercontent.com/AlipBot" width="200" height="200">
+---
 
-[`AlipBot`](https://github.com/AlipBot)<br>
+## ðŸ’¡ Hasil Deploy
 
-<img src="https://telegra.ph/file/1cbc7e659b35a053bf25f.png" width="150" height="150">
+[`ZVex API (Example)`](https://zvexapi.com)
 
-``Halal Rest API``
+---
+
+## ðŸ“Œ Credit & Thanks To
+
+**Base By:**  
+- **[AlipBot - Api-Alpis](https://github.com/AlipBot/Api-Alpis)**  
+
+**Thanks To:**  
+- **Allah SWT â˜ªï¸**  
+- **Nabi Muhammad SAW ï·º**  
+- **Para Developer Open Source**  
+
+<p align="center">
+  <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" width="150">
+</p>
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif" width="400">
+</p>
+
+---
